@@ -42,8 +42,6 @@
 
 Rather than full fine-tuning (which requires updating billions of parameters), this project inserts small, trainable rank-decomposition matrices into a frozen foundation model, reducing trainable parameters by **99%+** while retaining most of the model's capabilities. This makes fine-tuning accessible without enterprise-grade GPU infrastructure.
 
-This project was developed as part of the **Udacity Generative AI Nanodegree**.
-
 ---
 
 ## 🔬 What is PEFT / LoRA?
