@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <strong>Parameter-Efficient Fine-Tuning (PEFT) of a pre-trained foundation model using LoRA — adapting powerful LLMs to domain-specific tasks with minimal compute and maximum efficiency.</strong>
+  <strong>Parameter-Efficient Fine-Tuning (PEFT) of a pre-trained foundation model using LoRA - adapting powerful LLMs to domain-specific tasks with minimal compute and maximum efficiency.</strong>
 </p>
 
 </div>
@@ -38,7 +38,7 @@
 
 ## 🧠 Overview
 
-**Lightweight Fine-Tuning to Foundation Models** demonstrates how to efficiently adapt large pre-trained language models (LLMs) to specific downstream tasks using **Parameter-Efficient Fine-Tuning (PEFT)** — specifically the **LoRA (Low-Rank Adaptation)** technique.
+**Lightweight Fine-Tuning to Foundation Models** demonstrates how to efficiently adapt large pre-trained language models (LLMs) to specific downstream tasks using **Parameter-Efficient Fine-Tuning (PEFT)** - specifically the **LoRA (Low-Rank Adaptation)** technique.
 
 Rather than full fine-tuning (which requires updating billions of parameters), this project inserts small, trainable rank-decomposition matrices into a frozen foundation model, reducing trainable parameters by **99%+** while retaining most of the model's capabilities. This makes fine-tuning accessible without enterprise-grade GPU infrastructure.
 
@@ -68,11 +68,11 @@ Where `B` and `A` are low-rank matrices (rank `r << d`), dramatically reducing t
 ## ✨ Features
 
 - ✅ **LoRA fine-tuning** with HuggingFace PEFT library
-- ✅ **Frozen base model** — only adapter weights are trained
-- ✅ **Pre/post evaluation** — compare base vs. fine-tuned model metrics
-- ✅ **Minimal VRAM requirement** — runs on consumer GPUs (≥8GB)
-- ✅ **Reusable adapter weights** — save, share, and load LoRA adapters independently
-- ✅ **Trainer API integration** — clean, reproducible training loop
+- ✅ **Frozen base model** - only adapter weights are trained
+- ✅ **Pre/post evaluation** - compare base vs. fine-tuned model metrics
+- ✅ **Minimal VRAM requirement** - runs on consumer GPUs (≥8GB)
+- ✅ **Reusable adapter weights** - save, share, and load LoRA adapters independently
+- ✅ **Trainer API integration** - clean, reproducible training loop
 
 ---
 
